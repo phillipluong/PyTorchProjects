@@ -3,4 +3,4 @@ In this file, I'll be analysing the Otto data and providing the relevant scripts
 
 ## 1. Summary of the data
 
-![](images/test.png)
+![](images/logo.png)
