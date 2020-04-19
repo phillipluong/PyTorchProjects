@@ -13,7 +13,14 @@ By viewing the dataset, you observe that there are a total of 61,878 products. E
 Upon observing the points in the data, we notice that it is pretty sparse (density = 20.66%). 
 
 Here's a sample of the dataset:
-
+__Table 1__ 
+| id | feat_1 | feat_2 | feat_3 | feat_4 | feat_5 | feat_6 | feat_7 | feat_8 | feat_9 | feat_10 | ... | feat_85 | feat_86 | feat_87 | feat_88 | feat_89 | feat_90 | feat_91 | feat_92 | feat_93 | target |
+|-------|--------|--------|--------|--------|--------|--------|--------|--------|--------|---------|-----|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|
+| 61874 | 1 | 0 | 0 | 1 | 1 | 0 | 0 | 0 | 0 | 0 | ... | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 2 | 0 | Class_9 |
+| 61875 | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | ... | 0 | 2 | 0 | 0 | 2 | 0 | 0 | 1 | 0 | Class_9 |
+| 61876 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 3 | 1 | 0 | ... | 0 | 3 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | Class_9 |
+| 61877 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | ... | 0 | 0 | 0 | 0 | 1 | 0 | 3 | 10 | 0 | Class_9 |
+| 61878 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | ... | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 2 | 0 | Class_9 |
 
 You can view the dataset on this link: https://www.kaggle.com/c/otto-group-product-classification-challenge/data
 
