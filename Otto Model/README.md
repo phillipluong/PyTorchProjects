@@ -26,6 +26,8 @@ You can view the dataset on this link: https://www.kaggle.com/c/otto-group-produ
 
 
 ## 2. Structure of the Model (and Hyperparameters)
-
+<img src="images/layers.png"
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 10px;" />
 
 ## 3. Analysis of the results
