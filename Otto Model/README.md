@@ -39,6 +39,14 @@ __Insert histogram here__
 
 ## 3. Analysis of the results
 
+<img src="images/confusion_matrix.png"
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 10px;" />
+     
+     
+<img src="images/confusion_matrix_ratio.png"
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 10px;" />
 
 ## 4. The next step
 Thanks for following this post, I'll be looking for at other datasets in the future.
