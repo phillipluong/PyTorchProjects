@@ -41,12 +41,14 @@ __Insert histogram here__
 
 <img src="images/confusion_matrix.png"
      alt="Markdown Monster icon"
-     style="float: left; margin-right: 5px; width="200"" />
+     style="float: left; margin-right: 5px;" 
+     width="200px;" />
      
      
 <img src="images/confusion_matrix_ratio.png"
      alt="Markdown Monster icon"
-     style="float: left; margin-right: 5px; width="200"" />
-
+     style="float: left; margin-right: 5px;" 
+     width="200px;" />
+     
 ## 4. The next step
 Thanks for following this post, I'll be looking for at other datasets in the future.
