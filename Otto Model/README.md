@@ -13,7 +13,7 @@ By viewing the dataset, you observe that there are a total of 61,878 products. E
 Upon observing the points in the data, we notice that it is pretty sparse (density = 20.66%). 
 
 Here's a sample of the dataset:
-__Table 1__ 
+__Table 1:__ *Sample of the dataset* 
 | id | feat_1 | feat_2 | feat_3 | feat_4 | feat_5 | feat_6 | feat_7 | feat_8 | feat_9 | feat_10 | ... | feat_85 | feat_86 | feat_87 | feat_88 | feat_89 | feat_90 | feat_91 | feat_92 | feat_93 | target |
 |-------|--------|--------|--------|--------|--------|--------|--------|--------|--------|---------|-----|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|
 | 61874 | 1 | 0 | 0 | 1 | 1 | 0 | 0 | 0 | 0 | 0 | ... | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 2 | 0 | Class_9 |
@@ -24,10 +24,21 @@ __Table 1__
 
 You can view the dataset on this link: https://www.kaggle.com/c/otto-group-product-classification-challenge/data
 
+Here are the distribution in classes:
 
+__Insert histogram of classes__
+
+If you observe any of the features, you get quite similar-looking histograms:
+
+__Insert histogram here__
 ## 2. Structure of the Model (and Hyperparameters)
+
 <img src="images/layers.png"
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" />
 
 ## 3. Analysis of the results
+
+
+## 4. The next step
+Thanks for following this post, I'll be looking for at other datasets in the future.
