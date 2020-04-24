@@ -31,12 +31,25 @@ __Insert histogram of classes__
 If you observe any of the features, you get quite similar-looking histograms:
 
 __Insert histogram here__
+
+We then used the Dataset class in PyTorch to allow the data to load into the model.
+<img src="images/data_code.png"
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 10px;" />
 ## 2. Structure of the Model (and Hyperparameters)
 
 <img src="images/layers.png"
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" />
+__Figure xx:__ *A diagram of the kind of model employed to get the results*
+In this model, we employ a 4-linear layer model which utilises ReLU after each layer. The output layer provides a probability that the input belongs to one of the nine classes. Then, the results are compared to the true labels via a cross-entropy function. 
 
+<img src="images/model_code.png"
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 10px;" />
+     
+
+During backpropagation, the parameters are optimised by stochastic gradient descent (SGD). 
 ## 3. Analysis of the results
 
 <img src="images/confusion_matrix.png"
