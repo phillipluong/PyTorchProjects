@@ -3,7 +3,7 @@
 
 __Created on:__ 19/04/2020
 
-__Last Updated:__ 19/04/2020
+__Last Updated:__ 24/04/2020
 
 In this file, I'll be analysing the Otto data and providing the relevant scripts and data (at the very least the hyperlink of the dataset)
 
@@ -26,21 +26,29 @@ You can view the dataset on this link: https://www.kaggle.com/c/otto-group-produ
 
 Here are the distribution in classes:
 
-__Insert histogram of classes__
+<img src="images/data_code.png"
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 10px;" />
 
 If you observe any of the features, you get quite similar-looking histograms:
 
-__Insert histogram here__
+<img src="images/class_freq.png"
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 10px;" />
+     
+Looking at the plot above, we notice that there is clearly a disproportionate number of items per class. Classes 2 and 6 have the greatest numbers, while classes 1, 4, 5 and 7 have the fewest.
 
 We then used the Dataset class in PyTorch to allow the data to load into the model.
 <img src="images/data_code.png"
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" />
+     
 ## 2. Structure of the Model (and Hyperparameters)
 
 <img src="images/layers.png"
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" />
+     
 __Figure xx:__ *A diagram of the kind of model employed to get the results*
 In this model, we employ a 4-linear layer model which utilises ReLU after each layer. The output layer provides a probability that the input belongs to one of the nine classes. Then, the results are compared to the true labels via a cross-entropy function. 
 
@@ -48,20 +56,31 @@ In this model, we employ a 4-linear layer model which utilises ReLU after each l
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" />
      
+During backpropagation, the parameters are optimised by stochastic gradient descent (SGD).
 
-During backpropagation, the parameters are optimised by stochastic gradient descent (SGD). 
 ## 3. Analysis of the results
+
+Because we decided to run the experiments through PyTorch, all the classes had to be pushed back by one, meaning that Class '0' is actually Class '1', Class '1' is Class '2', and so on.
 
 <img src="images/confusion_matrix.png"
      alt="Markdown Monster icon"
      style="float: left; margin-right: 5px;" 
      width="500px;" />
-     
-     
+          
 <img src="images/confusion_matrix_ratio.png"
      alt="Markdown Monster icon"
      style="float: left; margin-right: 5px;" 
      width="500px;" />
-     
+
+In general, we had about half of the classes showing a high ratio of true positives (Classes 5,6,8, and 9 had 97%, 94%, 92%, and 84% accuracies respectively). 
+
+Observing the results from our confusion matrices, notice that there is some clear overlap between mixing up classes 2 and 3, with 25% and 31% of Class 2 and 3 objects being predicted as each other respectively. In addtion, there were also (relatively) low accuracies observed for Classes 1, 4 and 7 (46%, 48% and 65% respectively). 
+
 ## 4. The next step
+Here are some things that I would've like to do in the future:
+   - Write a better report
+   - Create experiments and changing the number of layers or the size of each layer
+   - Make the number of samples per class proportionate and run experiments through that
+   - Since the data was randomly generated, I think running multiple experiments would have been extremely beneficial for this project. 
+
 Thanks for following this post, I'll be looking for at other datasets in the future.
