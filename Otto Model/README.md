@@ -28,7 +28,8 @@ Here are the distribution in classes:
 
 <img src="images/class_freq.png"
      alt="Markdown Monster icon"
-     style="float: left; margin-right: 10px;" />
+     style="float: left; margin-right: 10px;"
+     width="500px;" />
 
 If you observe any of the features, you get quite similar-looking histograms:
 
