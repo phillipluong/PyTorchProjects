@@ -26,13 +26,13 @@ You can view the dataset on this link: https://www.kaggle.com/c/otto-group-produ
 
 Here are the distribution in classes:
 
-<img src="images/data_code.png"
+<img src="images/class_freq.png"
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" />
 
 If you observe any of the features, you get quite similar-looking histograms:
 
-<img src="images/class_freq.png"
+<img src="images/feature_plot.png"
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" />
      
