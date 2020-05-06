@@ -13,8 +13,13 @@ In this file, I'll be analysing the QMNIST Dataset and doing a brief introductio
 - CNN's can be quite effective, as notably, many datasets that have been analysed by CNNs may be split into multiple channels. Notably, a colour image may be split into red-blue-green channels, which are then used to solve their intended problem. 
 
 # What dataset are we analysing?
-In this project, I am analysing a variant of the MNIST dataset - the QMNIST dataset. The QMNIST dataset is a variant of the original MNIST dataset, where the exact preprocessing steps of the MNIST dataset have been lost, leaving uncertainty with how 
-https://github.com/facebookresearch/qmnist
+In this project, I am analysing a variant of the MNIST dataset - the QMNIST dataset. The QMNIST dataset is a variant of the original MNIST dataset, where the exact preprocessing steps of the MNIST dataset have been lost, leaving uncertainty with what some of the numbers are actually intended to be, and how similar the images are to the original drawings. The details of this pre-processing wasn't too interesting to me at the time, so I decided to focus on writing the rest of the paper, but you can inspect the work done here: https://github.com/facebookresearch/qmnist. 
+
+__To do:__ 
+- Get a sample number of images 
+- Size of the dataset
+- Characteristics of an Individual image
+- How an image is fed into the model?
 
 # What does the model look like?
 This model is obtained from https://github.com/yunjey/pytorch-tutorial/blob/master/tutorials/02-intermediate/convolutional_neural_network/main.py#L35-L56. Thank you for the efficient code! 
