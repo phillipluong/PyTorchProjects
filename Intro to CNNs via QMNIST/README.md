@@ -23,6 +23,7 @@ __To do:__
 - How an image is fed into the model?
 
 Here are a sample of 20 images from the dataset:
+
 <img src="images/sample_img.png"
      alt="Markdown Monster icon"
      style="float: left; margin-right: 5px;" 
