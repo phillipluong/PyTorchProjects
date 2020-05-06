@@ -1,1 +1,24 @@
+__Created on:__ 06/05/2020
 
+__Last Updated:__ 06/05/2020
+
+- Note pt1: I am aiming to finish this by Thursday evening. Meaning that the next project shall start (and hopefully finish) on Friday
+- Note pt2: I'll probably take a look at random forests and gradient boosting trees next time, in order to really get familiar with all that (more so GBDT, and LightGBM). 
+
+In this file, I'll be analysing the QMNIST Dataset and doing a brief introduction to CNN's with the help of Deep Learning Wizard (https://www.deeplearningwizard.com/deep_learning/practical_pytorch/pytorch_convolutional_neuralnetwork/). Notably, I would like to thank Ritche Ng for this fantastic resource to learn PyTorch (https://github.com/ritchieng/the-incredible-pytorch).
+
+# What are Convolutional Neural Networks?
+- Convolutional Neural Networks (CNNs) are a variant of traditional Neural Network Models with a primary assumption that a data point is primarily correlated to its neighbouring region, meaning that the layers aggregate relative regions, rather than taking parts from the whole of the previous layer.
+- CNNs are an effective medium to use to analyse images. Famously, CNN's have been used to solve the problem specified by the MNIST dataset quite effectively. In particular, this task required the model to predict the number written on the hand-written digit, meaning that the nodes within each layer would be extracting features to determine which one of the ten digits the writing is. 
+- CNN's can be quite effective, as notably, many datasets that have been analysed by CNNs may be split into multiple channels. Notably, a colour image may be split into red-blue-green channels, which are then used to solve their intended problem. 
+
+# What dataset are we analysing?
+In this project, I am analysing a variant of the MNIST dataset - the QMNIST dataset. The QMNIST dataset is a variant of the original MNIST dataset, where the exact preprocessing steps of the MNIST dataset have been lost, leaving uncertainty with how 
+https://github.com/facebookresearch/qmnist
+
+# What does the model look like?
+
+# What kind of results do we get? 
+
+# What project are we working on moving forward?
+I'll probably take a look at Gradient Boosting Decision Trees and LightGBM again. I feel like I really need to revise those techniques. Later in the track, I do want to extend back into Recurrent Neural Networks (RNNs) and Graph Convolutional Networks (GCNs). 
