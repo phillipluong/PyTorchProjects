@@ -15,11 +15,18 @@ In this file, I'll be analysing the QMNIST Dataset and doing a brief introductio
 # What dataset are we analysing?
 In this project, I am analysing a variant of the MNIST dataset - the QMNIST dataset. The QMNIST dataset is a variant of the original MNIST dataset, where the exact preprocessing steps of the MNIST dataset have been lost, leaving uncertainty with what some of the numbers are actually intended to be, and how similar the images are to the original drawings. The details of this pre-processing wasn't too interesting to me at the time, so I decided to focus on writing the rest of the paper, but you can inspect the work done here: https://github.com/facebookresearch/qmnist. 
 
+The QMNIST dataset consists of 60,000 training points and 60,000 test points. The first 10,000 points are shared with the original MNIST dataset. Within each point..... 
+
 __To do:__ 
-- Get a sample number of images 
 - Size of the dataset
 - Characteristics of an Individual image
 - How an image is fed into the model?
+
+Here are a sample of 20 images from the dataset:
+<img src="images/sample_img.png"
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 5px;" 
+     width="500px;" />
 
 # What does the model look like?
 This model is obtained from https://github.com/yunjey/pytorch-tutorial/blob/master/tutorials/02-intermediate/convolutional_neural_network/main.py#L35-L56. Thank you for the efficient code! 
