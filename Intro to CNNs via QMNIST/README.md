@@ -17,8 +17,18 @@ In this project, I am analysing a variant of the MNIST dataset - the QMNIST data
 https://github.com/facebookresearch/qmnist
 
 # What does the model look like?
+This model is obtained from https://github.com/yunjey/pytorch-tutorial/blob/master/tutorials/02-intermediate/convolutional_neural_network/main.py#L35-L56. Thank you for the efficient code! 
 
 # What kind of results do we get? 
 
 # What project are we working on moving forward?
 I'll probably take a look at Gradient Boosting Decision Trees and LightGBM again. I feel like I really need to revise those techniques. Later in the track, I do want to extend back into Recurrent Neural Networks (RNNs) and Graph Convolutional Networks (GCNs). 
+
+
+# Appendix
+
+## Template for putting images into md files:
+<img src="images/confusion_matrix_ratio.png"
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 5px;" 
+     width="500px;" />
