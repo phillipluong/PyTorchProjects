@@ -58,6 +58,8 @@ Even after the first epoch, we already get a model which is 98% accurate to the 
      style="float: left; margin-right: 5px;" 
      width="500px;" />
 
+When looking at the particular mislabeled numbers, it appears that 9 was the most mislabeled number, and 0 having the greatest specificity. However, it appeared that 0 and 7 were often mistaken labels. In addition, 2 & 3, 9 & 4 and 3 & 5 were the most commonly mistaken pairs (with the latter interpreted number instead of the former). 
+
 _Should I also perform validation? Probably, but that will depend on how much additional time I give myself to finish this project. If this paragraph has not been edited, then an additional validation step was not added._ 
 
 # What project are we working on moving forward?
