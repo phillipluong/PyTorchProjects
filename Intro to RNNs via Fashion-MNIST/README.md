@@ -4,7 +4,7 @@ Created on: 10/05/2020 11:10PM
 Updated on: 10:05/2020 11:10PM
 
 # Introduction
-
+Another important kind of Machine Learning model to explore in this series are Recurrent Neural Networks (RNNs). Recurrent Neural Networks build on the Fully Connected network idea and implement the idea of 'hidden layers', where there is a process running in parallel which accounts for factors which 
 
 # What is the Dataset?
 The dataset being analysed is the Fashion-MNIST Dataset. Fashion-MNIST considers as an upgrade to MNIST to increase the difficulty of the classification problem. Fashion-MNIST is a collection of greyscale images of Fashion items, each labeled with one of ten classes:
@@ -47,3 +47,7 @@ Here, we are using RNN. Typically, the preferred method to analyse images are wi
 - Future Directions? (Probably to do with the crime dataset)
 
 ## Template for images
+<img src="images/confusion_matrix_ratio.png"
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 5px;" 
+     width="500px;" />
