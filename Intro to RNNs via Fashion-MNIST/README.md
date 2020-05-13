@@ -7,7 +7,7 @@ Updated on: 10:05/2020 11:10PM
 
 
 # What is the Dataset?
-The dataset being analysed is the Fashion-MNIST Dataset. A variant of the original MNIST dataset, Fashion-MNIST is a collection of greyscale images of Fashion items, each labeled with one of ten classes:
+The dataset being analysed is the Fashion-MNIST Dataset. Fashion-MNIST considers as an upgrade to MNIST to increase the difficulty of the classification problem. Fashion-MNIST is a collection of greyscale images of Fashion items, each labeled with one of ten classes:
 
 | __Label__ | __Description__ |
 |-----------|-----------------|
@@ -22,6 +22,12 @@ The dataset being analysed is the Fashion-MNIST Dataset. A variant of the origin
 | 8         | Bag             |
 | 9         | Ankle boot      |
 
+Overall, Fashion-MNIST outlines a number of advantages over its predecessor, outlined here:
+
+https://github.com/zalandoresearch/fashion-mnist
+
+The fashion-MNIST dataset has a total of 60,000 points for training, 10,000 points for testing. 
+
 # What method are we using?
 Here, we are using RNN. Typically, the preferred method to analyse images are with Convolutional Neural Networks (CNNs) but we'll see how this goes. 
 
@@ -34,6 +40,7 @@ Here, we are using RNN. Typically, the preferred method to analyse images are wi
 
 ## To-do list
 - Description of Fashion-MNIST
+- Sample of Fashion-MNIST (including an example of data points and labels)
 - Describe how Recurrent Neural Networks work
 - Describe the results
 - Get a confusion matrix
