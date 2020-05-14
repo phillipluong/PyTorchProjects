@@ -1,7 +1,7 @@
 # Using RNNs to Predict the Class of Clothing in the Fashion-MNIST dataset
 Created on: 10/05/2020 11:10PM
 
-Updated on: 10:05/2020 11:10PM
+Updated on: 14/05/2020 09:11AM
 
 # Introduction
 Another important kind of Machine Learning model to explore in this series are Recurrent Neural Networks (RNNs). Recurrent Neural Networks build on the Fully Connected network idea and implement the idea of 'hidden layers', where there is a process running in parallel which accounts for factors which would typically not be included using F
@@ -37,6 +37,8 @@ Initially, the RNN model was coded in a way which resulted in quite an ineffecti
 - <Table of bad results>
 
 # What do we want to do moving forward?
+There are still a lot of stuff for me to work on this week, a lot of it primarily involves reviewing the crime and New York location datasets. In particular, it will be worthwhile reviewing the theory associated with the models that I used to analyse that dataset at the time (Random Forests, SVR etc). It will also be extremely worthwhile to review the dataset and change it to a classification problem. 
+
 
 # Appendix
 
