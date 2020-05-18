@@ -1,7 +1,7 @@
 # Using RNNs to Predict the Class of Clothing in the Fashion-MNIST dataset
-Created on: 10/05/2020 11:10PM
+Created on: 10/05/2020 23:10
 
-Updated on: 14/05/2020 09:11AM
+Updated on: 18/05/2020 15:23
 
 # Introduction
 Another important kind of Machine Learning model to explore in this series are Recurrent Neural Networks (RNNs). Recurrent Neural Networks build on the Fully Connected network idea and implement the idea of 'hidden layers', where there is a process running in parallel which accounts for factors which would typically not be included using F
@@ -30,6 +30,14 @@ The fashion-MNIST dataset has a total of 60,000 points for training, 10,000 poin
 
 # What method are we using?
 Here, we are using RNN. Typically, the preferred method to analyse images are with Convolutional Neural Networks (CNNs) but we'll see how this goes. 
+
+RNN's use a hidden layer to memorise parts of the input, allowing for more accurate predictions. This is especially helpful in applications involving text memorisation and sequence generation/prediction. What matters most in this project here is to understand the framework of building an RNN model (including the structures of a single layer in PyTorch.
+
+In deeper models of RNNs, we encounter the issue of the earlier hidden layers having little impact on processing the latter layers, meaning that the model won't be able to identify deeply structured relationships (also known as the vanishing gradient problem). This is where LSTM's come into play. 
+
+Long Short Term Memory networks (LSTMs), were originally developed in the late 90's by Hochreiter & Schmidhuber (1997), and are now widely used as the preferred form of RNNs. LSTM's have in-built methods to try to memorise the earlier layers of the model when computing the hidden layer, by using four separate layers which will eventually account for certain aspects of the previous set of layers. This is effectively described on the blog post: https://colah.github.io/posts/2015-08-Understanding-LSTMs/. Simplistically (and for the sake of learning this myself, I've copied the two diagrams distinguishing RNNs and LSTMs from that blog.   
+
+One thing that I've learnt over doing this and the LSTM model is that multi-layer models are quite simple in PyTorch since you can just change the num_layers input.
 
 # What are the results?
 Initially, the RNN model was coded in a way which resulted in quite an ineffective model, with results essentially equal to random change. I wanted to use this opportunity to figure out why this was happening (since the CNN variant worked perfectly fine). 
@@ -81,8 +89,16 @@ Fantastic! Let's run some more models, compare them (so see where the models pea
 # What do we want to do moving forward?
 There are still a lot of stuff for me to work on this week, a lot of it primarily involves reviewing the crime and New York location datasets. In particular, it will be worthwhile reviewing the theory associated with the models that I used to analyse that dataset at the time (Random Forests, SVR etc). It will also be extremely worthwhile to review the dataset and change it to a classification problem. 
 
+In terms of describing the actual function of each model, I personally feel like I'd like to have more detail in why and how these models work, but this will only come when I personally get a better understanding of how they work. In future projects, I'd like to be slowly adding more detail to the model. I'm sure there will be mistakes along the way, but they will be corrected as the mistakes are identified. 
 
 # Appendix
+
+## Resources used:
+http://www.wildml.com/2015/09/recurrent-neural-networks-tutorial-part-1-introduction-to-rnns/
+
+https://colah.github.io/posts/2015-08-Understanding-LSTMs/
+
+http://karpathy.github.io/2015/05/21/rnn-effectiveness/
 
 ## To-do list
 - Description of Fashion-MNIST
