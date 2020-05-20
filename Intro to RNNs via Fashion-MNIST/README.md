@@ -4,7 +4,7 @@ Created on: 10/05/2020 23:10
 Updated on: 19/05/2020 13:06
 
 # Introduction
-Another important kind of Machine Learning model to explore in this series are Recurrent Neural Networks (RNNs). Recurrent Neural Networks build on the Fully Connected network idea and implement the idea of 'hidden layers', where there is a process running in parallel which accounts for factors which would typically not be included using F
+Another important kind of Machine Learning model to explore in this series are Recurrent Neural Networks (RNNs). Recurrent Neural Networks build on 'Fully Connected networks' and implement the idea of 'hidden layers', where there is a process running in parallel which accounts for factors which would typically not be included using Fully Connected Networks (mainly just parts of the input that can be relevant to the overall output). 
 
 # What is the Dataset?
 The dataset being analysed is the Fashion-MNIST Dataset. Fashion-MNIST considers as an upgrade to MNIST to increase the difficulty of the classification problem. Fashion-MNIST is a collection of greyscale images of Fashion items, each labeled with one of ten classes:
@@ -76,15 +76,59 @@ So if I run the model again, but with the criterion and optimizer, then I should
 
 Fantastic! Let's run some more models, compare them (so see where the models peak, and maybe some plots too). 
 
-
-## Part 2: Functional Modelling Results
-
-
-## Part 3: LSTM Results
+## Part 2: Progression of one model per epoch
 
 
-## Part 4: More Models (RNNs/LSTMs with multiple layers)
 
+## Part 3: Comparison of the Four models
+
+| __Model__      | __Peak Epoch__ | __Loss__ | __Accuracy__ | __Time Taken__ |
+|----------------|----------------|----------|--------------|----------------|
+| RNN (1-layer)  | 17             | 0.39     | 87.87%       | 577.76         |
+| LSTM (1-layer) | 16             | 0.44     | 82.32%       | 1192.22        |
+| RNN (2-layer)  | 20             | 0.36     | 84.90%       | 872.03         |
+| LSTM (2-layer) | 18             | 0.77     | 77.30%       | 2628.22        |
+
+<img src="images/compare_loss_prog.png"
+     alt="Loss Function Progression"
+     style="float: left; margin-right: 5px;" 
+     width="500px;" />
+
+
+<img src="images/compare_acc_prog.png"
+     alt="Accuracy Progression"
+     style="float: left; margin-right: 5px;" 
+     width="500px;" />
+     
+## Part 4: Comparison of Confusion Matrices
+     
+### RNN-1 Layer Model
+
+<img src="images/rnn1_confusion_matrix.png"
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 5px;" 
+     width="500px;" />
+
+### LSTM-1 Layer Model
+
+<img src="images/lstm1_confusion_matrix.png"
+     alt="LSTM-1 Confusion Matrix"
+     style="float: left; margin-right: 5px;" 
+     width="500px;" />
+
+### RNN-2 Layer Model
+
+<img src="images/rnn2_confusion_matrix.png"
+     alt="RNN-2 Confusion Matrix"
+     style="float: left; margin-right: 5px;" 
+     width="500px;" />
+
+### LSTM-2 Layer Model
+
+<img src="images/lstm2_confusion_matrix.png"
+     alt="LSTM-2 Confusion Matrix"
+     style="float: left; margin-right: 5px;" 
+     width="500px;" />
 
 # What do we want to do moving forward?
 There are still a lot of stuff for me to work on this week, a lot of it primarily involves reviewing the crime and New York location datasets. In particular, it will be worthwhile reviewing the theory associated with the models that I used to analyse that dataset at the time (Random Forests, SVR etc). It will also be extremely worthwhile to review the dataset and change it to a classification problem. 
