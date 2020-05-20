@@ -128,6 +128,8 @@ Overall, after 20 epochs (and over the long term), we achieve approximately 82% 
 | RNN (2-layer)  | 20             | 0.36     | 84.90%       | 872.03         |
 | LSTM (2-layer) | 18             | 0.77     | 77.30%       | 2628.22        |
 
+A quick mention of the hyperparameters - the hidden layer has 100 nodes, we are using the Cross Entropy measure as the loss function, and stochastic gradient descent as the optimiser. 
+
 Accuracy-wise, we have (from best to worst), Single layer LSTM (LSTM-1), Two layer RNN (RNN-2), Single Layer RNN (RNN-1), and Two layer LSTM (LSTM-2). In this case, it appears that LSTM has a sufficient amount of complexity for accurate predictions, while LSTM-2 made it too complex. Also notice that the RNN models went the other way around, with RNN-2 working better than RNN-1 after 20 epochs. 
 
 One other thing to point out is that the LSTM models took much longer to train than the RNN models. So we had increasing accuracy from RNN-1, to RNN-2, to LSTM-1, noticing that there is an increase in processing time for increasing complexity (which may not be so beneficial, if we look at the outcome of LSTM-2). 
@@ -157,6 +159,13 @@ One other thing to point out is that the LSTM models took much longer to train t
 
 <img src="images/lstm2_confusion_matrix.png"
      alt="LSTM-2 Confusion Matrix"
+     style="float: left; margin-right: 5px;" 
+     width="500px;" />
+     
+Most of these models share some common misclassification. Shirts are typically misclassified as coats, pullovers and t-shirts. Other than that, the models classified quite well. In addition, dresses (class 3) were also commonly misclassified as t-shirts at times too. 
+
+<img src="images/lstm1_extra_confusion.png"
+     alt="New Confusion Matrix"
      style="float: left; margin-right: 5px;" 
      width="500px;" />
 
