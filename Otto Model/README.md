@@ -85,3 +85,5 @@ Here are some things that I would've like to do in the future:
    - Since the data was randomly generated, I think running multiple experiments would have been extremely beneficial for this project. 
 
 Thanks for following this post, I'll be looking for at other datasets in the future.
+
+[__Back to the main page__](https://phillipluong.github.io/PyTorchProjects101/)
