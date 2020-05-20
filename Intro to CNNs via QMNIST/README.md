@@ -1,3 +1,5 @@
+# Introduction to Convolutional Neural Networks via the QMNIST dataset
+
 __Created on:__ 06/05/2020
 
 __Last Updated:__ 07/05/2020
@@ -65,6 +67,7 @@ _Should I also perform validation? Probably, but that will depend on how much ad
 # What project are we working on moving forward?
 I'll probably take a look at Gradient Boosting Decision Trees and LightGBM again. I feel like I really need to revise those techniques. Later in the track, I do want to extend back into Recurrent Neural Networks (RNNs) and Graph Convolutional Networks (GCNs). 
 
+[__Back to the main page__](https://phillipluong.github.io/PyTorchProjects101/)
 
 # Appendix
 
