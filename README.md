@@ -2,5 +2,6 @@
 A small repository for me learning how to make neural networks on PyTorch
 
 ### So far, we have the following projects:
-- The Otto dataset via softmax functions
-- That's it haha
+- The Otto dataset analysis
+- Introductory CNN model
+- Introductory RNN/LSTM models
