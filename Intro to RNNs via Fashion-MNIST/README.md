@@ -1,7 +1,9 @@
-# Using RNNs to Predict the Class of Clothing in the Fashion-MNIST dataset
+# Using RNNs and LSTMs to Predict the Class of Clothing in the Fashion-MNIST dataset
 Created on: 10/05/2020 23:10
 
 Updated on: 19/05/2020 13:06
+
+[__Back to the main page__](https://phillipluong.github.io/PyTorchProjects101/)
 
 # Introduction
 Another important kind of Machine Learning model to explore in this series are Recurrent Neural Networks (RNNs). Recurrent Neural Networks build on 'Fully Connected networks' and implement the idea of 'hidden layers', where there is a process running in parallel which accounts for factors which would typically not be included using Fully Connected Networks (mainly just parts of the input that can be relevant to the overall output). 
@@ -183,12 +185,7 @@ https://colah.github.io/posts/2015-08-Understanding-LSTMs/
 
 http://karpathy.github.io/2015/05/21/rnn-effectiveness/
 
-## To-do list
-- Describe results
-   - Initial Modelling
-   - Progression of One Model Per Epoch
-   - Comparison of four models
-   - Comparison of confusion matrices 
+[__Back to the main page__](https://phillipluong.github.io/PyTorchProjects101/)
 
 ## Template for images
 <img src="images/confusion_matrix_ratio.png"
