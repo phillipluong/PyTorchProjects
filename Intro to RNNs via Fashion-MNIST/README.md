@@ -78,16 +78,36 @@ Fantastic! Let's run some more models, compare them (so see where the models pea
 
 ## Part 2: Progression of one model per epoch
 
+| __Epoch__ | __Iteration__ | __Loss__ | __Accuracy__ |
+|-----------|---------------|----------|--------------|
+| 1         | 600           | 1.73     | 26.54%       |
+| 2         | 1200          | 1.37     | 46.11%       |
+| 3         | 1800          | 1.20     | 59.55%       |
+| 4         | 2400          | 0.85     | 67.90%       |
+| _5_         | _3000_          | _0.90_     | _57.59%_      |
+| 6         | 3600          | 0.57     | 74.43%       |
+| 7         | 4200          | 0.58     | 75.63%       |
+| 8         | 4800          | 0.56     | 78.09%       |
+| 9         | 5400          | 0.53     | 77.10%       |
+| 10        | 6000          | 0.54     | 79.80%       |
+| _11_        | _6600_          | _0.85_     | _68.99%_       |
+| 12        | 7200          | 0.55     | 80.80%       |
+| 13        | 7800          | 0.55     | 76.96%       |
+| 14        | 8400          | 0.56     | 79.78%       |
+| 15        | 9000          | 0.50     | 81.20%       |
+| 16        | 9600          | 0.44     | 82.32%       |
+| 17        | 10200         | 0.34     | 81.70%       |
+| 18        | 10800         | 0.34     | 81.86%       |
+| _19_        | _11400_         | _0.49_     | _82.08%_       |
+| 20        | 12000         | 0.37     | 82.10%       |
 
+From the looks of it, there is a fairly steady increase in accuracy after each epoch. In addition, I notice that after some epochs, there is an increase in the loss function, which are followed by greater decreases in the following epochs. This looks like the model going through different local minima in the gradient descent search. These points are italicised on the table. 
+
+Overall, after 20 epochs (and over the long term), we achieve approximately 82% accuracy. Not bad!
 
 ## Part 3: Comparison of the Four models
 
-| __Model__      | __Peak Epoch__ | __Loss__ | __Accuracy__ | __Time Taken__ |
-|----------------|----------------|----------|--------------|----------------|
-| RNN (1-layer)  | 17             | 0.39     | 87.87%       | 577.76         |
-| LSTM (1-layer) | 16             | 0.44     | 82.32%       | 1192.22        |
-| RNN (2-layer)  | 20             | 0.36     | 84.90%       | 872.03         |
-| LSTM (2-layer) | 18             | 0.77     | 77.30%       | 2628.22        |
+### Overall Comparison of the Models
 
 <img src="images/compare_loss_prog.png"
      alt="Loss Function Progression"
@@ -100,8 +120,18 @@ Fantastic! Let's run some more models, compare them (so see where the models pea
      style="float: left; margin-right: 5px;" 
      width="500px;" />
      
-## Part 4: Comparison of Confusion Matrices
      
+| __Model__      | __Peak Epoch__ | __Loss__ | __Accuracy__ | __Time Taken__ |
+|----------------|----------------|----------|--------------|----------------|
+| RNN (1-layer)  | 16             | 0.44     | 82.32%       | 577.76         |
+| LSTM (1-layer) | 17             | 0.39     | 87.87%       | 1192.22        |
+| RNN (2-layer)  | 20             | 0.36     | 84.90%       | 872.03         |
+| LSTM (2-layer) | 18             | 0.77     | 77.30%       | 2628.22        |
+
+Accuracy-wise, we have (from best to worst), Single layer LSTM (LSTM-1), Two layer RNN (RNN-2), Single Layer RNN (RNN-1), and Two layer LSTM (LSTM-2). In this case, it appears that LSTM has a sufficient amount of complexity for accurate predictions, while LSTM-2 made it too complex. Also notice that the RNN models went the other way around, with RNN-2 working better than RNN-1 after 20 epochs. 
+
+One other thing to point out is that the LSTM models took much longer to train than the RNN models. So we had increasing accuracy from RNN-1, to RNN-2, to LSTM-1, noticing that there is an increase in processing time for increasing complexity (which may not be so beneficial, if we look at the outcome of LSTM-2). 
+
 ### RNN-1 Layer Model
 
 <img src="images/rnn1_confusion_matrix.png"
@@ -145,12 +175,11 @@ https://colah.github.io/posts/2015-08-Understanding-LSTMs/
 http://karpathy.github.io/2015/05/21/rnn-effectiveness/
 
 ## To-do list
-- Description of Fashion-MNIST
-- Sample of Fashion-MNIST (including an example of data points and labels)
-- Describe how Recurrent Neural Networks work
-- Describe the results
-- Get a confusion matrix
-- Future Directions? (Probably to do with the crime dataset)
+- Describe results
+   - Initial Modelling
+   - Progression of One Model Per Epoch
+   - Comparison of four models
+   - Comparison of confusion matrices 
 
 ## Template for images
 <img src="images/confusion_matrix_ratio.png"
