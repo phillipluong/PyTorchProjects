@@ -33,24 +33,71 @@ To do:
 
 ## NYC Crime Data
 
+| Crime Type | Original Crime Categories | # Events | # Events (3 boros) |
+|-------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------|:------------------|
+| Assault | ‘assault 3 & related offenses’, ‘felony assault’, ‘murder & non-negl. manslaughter’, ‘homicide-negligent, unclassifie’, ‘homicide-negligent-vehicle’ | 73,280 | 4,328 |
+| Drug | ‘dangerous drugs’, ‘alcoholic beverage control law’ | 15,262 | 649 |
+| Harrassment | ‘harrassment 2’ | 69,289 | 3,876 |
+| Larceny | ‘petit larceny’, ‘grand larceny’, ‘robbery’, ‘burglary’, ‘grand larceny of motor vehicle’, ‘theft-fraud’, other offenses related to thef’, ‘theft of services’, ‘petit larceny of motor vehicle’, ‘jostling’ | 161,063 | 9,503 |
+| Traffic | ‘vehicle and traffic laws’, ‘intoxicated & impaired driving’, ‘intoxicated/impaired driving’ | 11,667 | 581 |
+
 # Chapter 2: Map of New York City + Uber Movement Data
 New York is separated into five boroughs, and further separated into 194 different Neighbourhood Tabulation Areas (NTAs). We use this map 
 
 https://movement.uber.com/?lang=en-AU
+
+| Month     | Data Points | Unique Nodes | Unique Edges |
+|-----------|:-------------:|:--------------:|--------------:|
+| January   |  15,945,242 | 51,226       | 64,888       |
+| February  |  15,017,889 | 50,369       | 63,350       |
+| March     |  18,083,045 | 52,976       | 68,007       |
+| April     |  17,201,955 | 52,790       | 65,946       |
+| May       |  18,612,705 | 53,654       | 68,878       |
+| June      |  40,076,432 | 55,280       | 73,363       |
+| July      |  19,035,601 | 53,244       | 68,554       |
+| August    |   2,575,901 | 12,882       |  9,040       |
+| September |  17,837,387 | 53,753       | 68,867       |
+| October   |  18,073,444 | 53,309       | 68,295       |
+| November  |  16,244,698 | 53,346       | 68,181       |
+| December  |  15,949,334 | 51,822       | 65,104       |
+| Total     | 214,653,633 | 58,299       | 78,660       |
 
 # Chapter 3: New York Crime/Complaint Data
 
 
 # Chapter 4: New York City Demographic Data
 
+| _Economic_                | _Housing_       |
+|---------------------------|-----------------|
+| Class of Worker           | # Bedrooms      |
+| Employment Status         | Gross Rent      |
+| Health Insurance Coverage | Heating         |
+| Income + Benefits         | Monthly Costs   |
+| Industry                  | Mortgage status |
+| Occupation                | Occupancy       |
+| _Populational Diversity_  | Owner Costs     |
+| Race                      | # Rooms         |
+| Sex                       | Tenure          |
+| Age                       | Total # Units   |
+|                           | Value per unit  |
+|                           | # Vehicles      |
 
-# Chapter 5: New York City Weather Data
+# Chapter 5: New York City Foursquare Data
+| Time Period | Time Period       | Number of Hours |
+|-------------|:-------------------|-----------------:|
+| Morning     |  6:00am –  9:59am | 4               |
+| Midday      | 10:00am –  2:59pm | 5               |
+| Afternoon   |  3:00pm –  6:59pm | 4               |
+| Night       |  7:00pm – 11:59pm | 5               |
+| Overnight   | 12:00am –  5:59am | 6               |
+
+# Chapter 6: New York City Weather Data
 
 
-# Chapter 6: New York City Public Transport Data
+# Chapter 7: New York City Public Transport Data
 
 
-# Chapter 7: Other Datasets
+# Chapter 8: Other Datasets
 
 
 # Appendix
