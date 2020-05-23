@@ -4,6 +4,8 @@ This week, I'm going to be running through an overview of the datasets I was loo
 - Previously, I was looking through the crime dataset to predict the number of crime events in future time steps given some prior information. 
 - Let's see how I can develop with this, or what tools I can use in an upcoming project soon!
 
+*__This project may end up incomplete here. There will be a separate document detailing this information (to be added here).__*
+
 # Chapter 1: Data Overview
 Crime Data link:
 
@@ -93,6 +95,7 @@ https://movement.uber.com/?lang=en-AU
 
 # Chapter 6: New York City Weather Data
 
+ https://www.wunderground.com/
 
 # Chapter 7: New York City Public Transport Data
 
