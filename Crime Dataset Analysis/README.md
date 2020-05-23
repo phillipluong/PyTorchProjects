@@ -1,5 +1,6 @@
 # Analysing the New York City Crime Dataset (alongside a couple of other datasets)
 
+Before I start this report, I would like to thank Yoga Pratama Suryanto for his assistance with analysing the MTA dataset. This analysis would have not been possible without his continued support. 
 This week, I'm going to be running through an overview of the datasets I was looking at a while ago (the New York City Crime Datasets).
 - Previously, I was looking through the crime dataset to predict the number of crime events in future time steps given some prior information. 
 - Let's see how I can develop with this, or what tools I can use in an upcoming project soon!
