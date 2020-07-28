@@ -16,8 +16,9 @@ The main idea of this problem is to analyse Sugarcane farming in Prosperone, Que
 
 ## The Main Dataset
 
-## Alternative Datasets:
-It's also possible (and likely encouraged) to also combine findings from other (publicly available) datasets:
+## Alternative Datasets: 
+It is also possible (and likely encouraged) to also combine findings from other (publicly available) datasets
+
 - 
 
 # Part 3: The Analytics Problem: Optimal Trading Strategy
