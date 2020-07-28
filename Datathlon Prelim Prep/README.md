@@ -10,7 +10,15 @@ All in all, there are two different streams:
 It might be interesting to also take a look into projects that were successful too in order to see what was trending successfully last year, and what things that may be important this year.
 
 # Part 2: The Data2App Problem: Sugarcane and Satellites
+The main idea of this problem is to analyse Sugarcane farming in Prosperone, Queensland. The main task is to build an interactive app (based on a browser) to provide insight into the production of sugarcane over time primarily using satellite data. This task is to fulfill a number of example use examples for farmers, sugar mills, bankers, fertilser vendors and governments for various cases:
+- As a farmer, they could use it for
+   - finding ways to improve 
 
+## The Main Dataset
+
+## Alternative Datasets:
+It's also possible (and likely encouraged) to also combine findings from other (publicly available) datasets:
+- 
 
 # Part 3: The Analytics Problem: Optimal Trading Strategy
 
