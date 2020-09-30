@@ -22,7 +22,7 @@ id | feat_1 | feat_2 | feat_3 | feat_4 | feat_5 | ... | feat_89 | feat_90 | feat
 61875 | 4 | 0 | 0 | 0 | 0 | ... | 2 | 0 | 0 | 1 | 0 | Class_9 
 61876 | 0 | 0 | 0 | 0 | 0 | ... | 0 | 0 | 0 | 0 | 0 | Class_9 
 61877 | 1 | 0 | 0 | 0 | 0 | ... | 1 | 0 | 3 | 10 | 0 | Class_9 
-61878 | 0 | 0 | 0 | 0 | 0 | ... | 0 | 0 | 0 | 2 | 0 | Class_9 
+61878 | 0 | 0 | 0 | 0 | 0 | ... | 0 | 0 | 0 | 2 | lol | Class_9 
 
 You can view the dataset on this link: https://www.kaggle.com/c/otto-group-product-classification-challenge/data
 
