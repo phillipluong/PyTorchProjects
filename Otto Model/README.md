@@ -13,7 +13,9 @@ By viewing the dataset, you observe that there are a total of 61,878 products. E
 Upon observing the points in the data, we notice that it is pretty sparse (density = 20.66%). 
 
 Here's a sample of the dataset:
+
 __Table 1:__ *Sample of the dataset* 
+
 id | feat_1 | feat_2 | feat_3 | feat_4 | feat_5 | ... | feat_89 | feat_90 | feat_91 | feat_92 | feat_93 | target 
 |---------|-----|---------|---------|---------|-----|----|---------|---------|---------|---------|---------|---------|
 61874 | 1 | 0 | 0 | 1 | 1 | ... | 0 | 0 | 0 | 2 | 0 | Class_9 
