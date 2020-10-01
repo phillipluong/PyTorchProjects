@@ -28,7 +28,9 @@ id | feat_1 | feat_2 | feat_3 | feat_4 | feat_5 | ... | feat_89 | feat_90 | feat
 
 <\center>
 
-You can view the dataset on this link: https://www.kaggle.com/c/otto-group-product-classification-challenge/data
+You can view the dataset on this link: 
+
+https://www.kaggle.com/c/otto-group-product-classification-challenge/data
 
 Here are the distribution in classes:
 
