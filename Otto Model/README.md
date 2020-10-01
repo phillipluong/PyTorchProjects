@@ -30,12 +30,12 @@ https://www.kaggle.com/c/otto-group-product-classification-challenge/data
 
 Here are the distribution in classes:
 
-![](images/class_freq.png){:height="50%" width="50%"}
+![](images/class_freq.png =100x)
 
 If you observe any of the features, you get quite similar-looking histograms:
 
 
-![](images/feature_plot.png){:height="50%" width="50%"}
+![](images/feature_plot.png -100x)
 
 Looking at the plot above, we notice that there is clearly a disproportionate number of items per class. Classes 2 and 6 have the greatest numbers, while classes 1, 4, 5 and 7 have the fewest.
 
