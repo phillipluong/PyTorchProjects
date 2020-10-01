@@ -30,7 +30,7 @@ https://www.kaggle.com/c/otto-group-product-classification-challenge/data
 
 Here are the distribution in classes:
 
-![](images/class_freq.png")
+![](images/class_freq.png)
 
 If you observe any of the features, you get quite similar-looking histograms:
 
