@@ -16,12 +16,6 @@ Here's a sample of the dataset:
 
 __Table 1:__ *Sample of the dataset* 
 
-<style>
-.tablelines table, .tablelines td, .tablelines th {
-        border: 1px solid black;
-        }
-</style>
-
 id | feat_1 | feat_2 | feat_3 | feat_4 | feat_5 | ... | feat_89 | feat_90 | feat_91 | feat_92 | feat_93 | target 
 |---------|-----|---------|---------|---------|-----|----|---------|---------|---------|---------|---------|---------|
 61874 | 1 | 0 | 0 | 1 | 1 | ... | 0 | 0 | 0 | 2 | 0 | Class_9 
@@ -38,7 +32,7 @@ Here are the distribution in classes:
 
 <img src="images/class_freq.png"
      alt="Markdown Monster icon"
-     style="float: left; margin-right: 10px;" />
+     style="float: left; margin-right: 8px;" />
 
 If you observe any of the features, you get quite similar-looking histograms:
 
