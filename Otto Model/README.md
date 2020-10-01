@@ -63,12 +63,13 @@ During backpropagation, the parameters are optimised by stochastic gradient desc
 
 Because we decided to run the experiments through PyTorch, all the classes had to be pushed back by one, meaning that Class '0' is actually Class '1', Class '1' is Class '2', and so on.
 
-
+<p align="center">
 <img src="images/confusion_matrix.png"
      alt="Accuracy of confusion matrix"
      style="float: left; margin-right: 5px;" 
      width="500px;" />
-          
+</p>
+
           
 <img src="images/confusion_matrix_ratio.png"
      alt="Percentage Confusion Matrix"
