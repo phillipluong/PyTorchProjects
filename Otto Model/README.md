@@ -32,16 +32,19 @@ Here are the distribution in classes:
 
 <img src="images/class_freq.png"
      alt="Class Frequency Table"
-     style="float: left; margin-right: 10px;" />
+     style="float: left; margin-right: 10px;" 
+     class="inline" />
 
 If you observe any of the features, you get quite similar-looking histograms:
 
 <img src="images/feature_plot.png"
      alt="Values for Feature 56"
      style="float: left; margin-right: 10px;" 
-     width="500px;" />
-\
-\
+     width="500px;" 
+     class="inline" />
+
+
+
 Looking at the plot above, we notice that there is clearly a disproportionate number of items per class. Classes 2 and 6 have the greatest numbers, while classes 1, 4, 5 and 7 have the fewest.
 
 We then used the Dataset class in PyTorch to allow the data to load into the model.
