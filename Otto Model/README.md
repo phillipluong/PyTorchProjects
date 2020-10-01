@@ -26,7 +26,7 @@ id | feat_1 | feat_2 | feat_3 | feat_4 | feat_5 | ... | feat_89 | feat_90 | feat
 61877 | 1 | 0 | 0 | 0 | 0 | ... | 1 | 0 | 3 | 10 | 0 | Class_9 
 61878 | 0 | 0 | 0 | 0 | 0 | ... | 0 | 0 | 0 | 2 | 0 | Class_9 
 
-</center>
+<\center>
 
 You can view the dataset on this link: 
 
