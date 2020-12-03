@@ -1,4 +1,4 @@
-# PyTorchProjects101
+# PyTorchProjects
 A small repository for me learning how to make neural networks on PyTorch
 
 __Started:__ 17/04/2020
