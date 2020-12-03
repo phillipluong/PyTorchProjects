@@ -70,11 +70,12 @@ Because we decided to run the experiments through PyTorch, all the classes had t
      width="500px;" />
 </p>
 
-          
+<p align="center">          
 <img src="images/confusion_matrix_ratio.png"
      alt="Percentage Confusion Matrix"
      style="float: left; margin-right: 5px;" 
      width="500px;" />
+</p>
      
      
 
